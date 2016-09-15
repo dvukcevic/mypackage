@@ -6,13 +6,22 @@
 \usage{
 resample(x, ...)
 }
+\arguments{
+\item{x}{A vector of elements from which to sample.}
+
+\item{...}{Further arguments passed to \code{sample}.}
+}
+\value{
+A vector of elements drawn from \code{x}.
+}
 \description{
 \code{resample} takes a random sample from a given vector.
 }
-\details{
-This function is an alternative to \code{sample}.  Unlike the latter, it
-always interprets the first argument as the set of elements to sample from,
-even when it is of length 1.  This consistency makes it more suitable for
-programmatic use.
+\examples{
+resample(5:10)  # same as sample(5:10)
+resample(5)     # NOT the same as sample(5)
+}
+\seealso{
+\code{\link[base]{sample}}
 }
 
