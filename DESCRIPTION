@@ -2,7 +2,7 @@ Package: mypackage
 Title: This is my first R package
 Description: This package was created as a way to learn how to write R
     packages. It contains various helper functions and variable definitions.
-Authors@R: person("First", "Last", email = "first.last@example.com",
+Authors@R: person("Damjan", "Vukcevic", email = "damjan@vukcevic.net",
                   role = c("aut", "cre"))
 Version: 0.1
 Depends:
