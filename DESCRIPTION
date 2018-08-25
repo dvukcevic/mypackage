@@ -1,14 +1,13 @@
 Package: mypackage
 Title: This is my first R package
-Description: This package was created as a way to learn how to write R
-    packages. It contains various helper functions and variable definitions.
+Description: This package was created as a way to learn how to write
+    R packages.
 Authors@R: person("Damjan", "Vukcevic", email = "damjan@vukcevic.net",
                   role = c("aut", "cre"))
-Version: 0.1
-Depends:
-    R (>= 3.3.1)
+Version: 0.1.1
+Depends: R (>= 3.3.1)
 License: GPL-3
-Encoding: UTF-8
 LazyData: true
-RoxygenNote: 5.0.1
+Encoding: UTF-8
+RoxygenNote: 6.1.0
 Imports: gplots
